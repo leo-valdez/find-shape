@@ -8,11 +8,11 @@ What I learned from understanding and implementing this code is:
 
 1) First we collect the data.
 
-2)Understand how the image data would look if ploted.
+2) Understand how the image data would look if ploted.
 
 3) Convert the image into pixel array form.
 
-4)Thresholding of the image in data collected, i.e converting image to greyscale based on:
+4) Thresholding of the image in data collected, i.e converting image to greyscale based on:
     
     Initial threshold value, typically the mean 8-bit value of the original image
     
@@ -22,7 +22,7 @@ What I learned from understanding and implementing this code is:
     
     Pixel values greater than the threshold; foreground
    
-5)Find the average mean values of the two new images.Calculate the new threshold by averaging the two means.
+5) Find the average mean values of the two new images.Calculate the new threshold by averaging the two means.
                                                                   
     If the difference between the previous threshold value and the new threshold value are below a specified limit, you are finished.  
     Otherwise apply the new threshold to the original image keep trying.
@@ -30,7 +30,7 @@ What I learned from understanding and implementing this code is:
  
 7) Testing of data.
 
-8) Ploting prediction graph of the output.
+8) Ploting prediction graph of the output and visualition of the result.
 
 
   
