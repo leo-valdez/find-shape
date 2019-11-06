@@ -30,7 +30,7 @@ What I learned from understanding and implementing this code is:
  
 7) Testing of data.
 
-8) Ploting predction graph of the output.
+8) Ploting prediction graph of the output.
 
 
   
